@@ -1,0 +1,38 @@
+{
+  "name": "mikekiselev/cbrru",
+  "description": "CBR.RU API for PHP",
+  "homepage": "https://github.com/mikekiselev/cbrru",
+  "keywords": ["cbrru","cbr","api"],
+  "version": "1.0.0",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "M Kiselev",
+      "email": "mike.kiselev@gmail.com",
+      "homepage": "https://github.com/mikekiselev"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.4",
+    "guzzlehttp/guzzle": "~6.0"
+
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.*",
+
+  },
+  "autoload": {
+    "psr-4": {
+      "AXP\\CBRRU\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "AXP\\CBRRU\\Test\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  },
+  "minimum-stability": "dev"
+}
