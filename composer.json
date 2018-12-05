@@ -23,12 +23,12 @@
   },
   "autoload": {
     "psr-4": {
-      "AXP\\CBRRU\\": "src"
+      "mikekiselev\\cbrru\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "AXP\\CBRRU\\Test\\": "tests"
+      "mikekiselev\\cbrru\\Test\\": "tests"
     }
   },
   "scripts": {
